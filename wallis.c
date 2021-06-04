@@ -24,8 +24,8 @@ int main(void) {
   }
 }
 float wallis_pi(int n ) {
-  float try = 1.0 ;
-  for(int i=1; i<=n ; i++) {
+  float try = 1;
+  for(int i=1; i<= n ; i++) {
     try= try * 4 * i * i/(4 * i * i -1 ) ;
   }
   return try*2 ;
