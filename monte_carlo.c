@@ -40,7 +40,7 @@ int main(void) {
 }
 float mc_pi(int n) {
   float count= 0 , pi;
-  for (int i=o; i<=n ; i++) {
+  for (int i=0; i<=n ; i++) {
     float x = frandom();
     float y = frandom();
     float eqn = x*x + y*y ;
