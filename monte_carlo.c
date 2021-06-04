@@ -43,9 +43,9 @@ float mc_pi(int n) {
   for (int i=o; i<=n ; i++) {
     float x = frandom();
     float y = frandom();
-    float eqn = x*x = y*y ;
+    float eqn = x*x + y*y ;
     if (eqn <=1 ) {
-      count++
+           count++
       }
   }
   pi = (float) 4 * (float)count/(float)n ;
